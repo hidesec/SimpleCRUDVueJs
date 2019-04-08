@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-npm install
+npm install -g json-server
 ```
 
 ### Compiles and hot-reloads for development
@@ -10,19 +10,19 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Run Json
 ```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
+json-server db.json
 ```
 
-### Lints and fixes files
+### Open in Browser
 ```
-npm run lint
+http://localhost:8080/
+```
+
+### Open Json in Broswser
+```
+http://localhost:3000/
 ```
 
 ### Customize configuration
